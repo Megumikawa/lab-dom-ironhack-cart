@@ -4,10 +4,10 @@ function updateSubtotal(product) {
   // console.log(product);
   let price = product.querySelector('.price span')
   let quantity = product.querySelector('.quantity input')
-  console.log(price.innerText)
+  // console.log(price.innerText)
 
   let total = price.innerText * quantity.value
-  console.log(total)
+  // console.log(total)
   let subtotal = product.querySelector('.subtotal span')
   subtotal.innerText = total
   return subtotal

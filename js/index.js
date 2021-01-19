@@ -11,18 +11,24 @@ function updateSubtotal(product) {
   let subtotal = product.querySelector('.subtotal span')
   subtotal.innerText = total
   return subtotal
-  //... your code goes here
 }
 
 function calculateAll() {
   // code in the following two lines is added just for testing purposes.
   // it runs when only iteration 1 is completed. at later point, it can be removed.
-  const singleProduct = document.querySelector('.product');
-  updateSubtotal(singleProduct);
+  // const singleProduct = document.querySelector('.product');
+  // updateSubtotal(singleProduct);
   // end of test
 
   // ITERATION 2
-  //... your code goes here
+  let displayTotal = document.querySelector('#total-value span')
+  // console.log(displayTotal.innerText)
+  let allProducts = document.querySelector('.product')
+  let finalTotal = 0
+
+  allproducts.forEach(product) {
+    const subtotal = 
+  }
 
   // ITERATION 3
   //... your code goes here

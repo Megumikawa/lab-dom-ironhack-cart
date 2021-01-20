@@ -26,9 +26,19 @@ function calculateAll() {
   let allProducts = document.querySelector('.product')
   let finalTotal = 0
 
-  allproducts.forEach(product) {
-    const subtotal = 
-  }
+
+
+  
+  // allProducts.forEach((product)=>{
+  //   const subtotal = updateSubtotal(product)
+  //   count += Number(subtotal.innerText)
+  // })
+  // const total = document.querySelector('#total-value span')
+  // total.innerHTML = count
+  // return total
+  
+
+
 
   // ITERATION 3
   //... your code goes here
